@@ -233,3 +233,6 @@ func Close() {
 	dec.Close()
 	dec = nil
 }
+
+//Here goes fucking nothing...literally, nothing...
+// Have I mentioned, I don't like writting java? Cause, I don't.
