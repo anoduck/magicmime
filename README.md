@@ -1,5 +1,7 @@
 # magicmime [![Build Status](http://img.shields.io/travis/rakyll/magicmime/master.svg?style=flat)](https://travis-ci.org/rakyll/magicmime) [![GoDoc](https://godoc.org/github.com/rakyll/magicmime?status.svg)](https://godoc.org/github.com/rakyll/magicmime)
 
+## This is a specific OpenBSD compatible version, because OpenBSD really rocks.
+
 `magicmime` is a Go package which allows you to discover a file's mimetype by looking for magic numbers in its content. It could be used as a supplementary for Go's [`mime`](http://golang.org/pkg/mime/) package which only interprets the file extension to detect mimetypes. Internally, it implements [libmagic(3)](http://linux.die.net/man/3/libmagic) bindings.
 
 Tested on Linux and Mac OS X, should be working on BSD. You could be able to build and make it working with Cygwin on Windows.
