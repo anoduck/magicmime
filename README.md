@@ -14,7 +14,7 @@ This uses the `libmagic` library from the `file` tool, so you might need to inst
 In order to start, go get this repository:
 
 ``` sh
-go get github.com/rakyll/magicmime
+go get github.com/anoduck/magicmime
 ```
 
 ### Examples
